@@ -1,0 +1,54 @@
+{
+    "offer":[
+        {
+            "id":1,
+            "title":"معمل نايل لاب",
+            "image":"/",
+            "discription":"خصم يصل إلى 55 % على جميع الخدمات",
+            "numberCopune":"",
+            "numberDiscount":"",
+            "numberCall":"",
+            "branches":[
+              {
+                "id":1,
+                "baranchName":"الدقى",
+                "link":"https://www.google.com/maps/place/Ad+Doqi,+Dokki,+Giza+Governorate/@30.0412582,31.1942858,15z/data=!3m1!4b1!4m5!3m4!1s0x145846cd25871d93:0x74a1ef05b4ecdc48!8m2!3d30.0394511!4d31.2025336"
+              }
+
+            ],
+            "discounts":[
+                {
+                    "id":1,
+                    "imageOffer":"/",
+                    "discritonOffer":"خصم خاص وحصرى تحليل سى بى سى 25"
+                }
+            ]
+
+        },
+        {
+            "id":2,
+            "title":"",
+            "image":"",
+            "discription":"",
+            "numberCopune":"",
+            "numberDiscount":"",
+            "numberCall":"",
+            "branches":[
+              {
+                "id":1,
+                "baranchName":"",
+                "link":""
+              }
+
+            ],
+            "discounts":[
+                {
+                    "id":1,
+                    "imageOffer":"/",
+                    "discritonOffer":""
+                }
+            ]
+
+        }
+    ]
+}

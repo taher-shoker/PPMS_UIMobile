@@ -1,0 +1,45 @@
+.navbar{
+    height: auto;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.return-btn{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 9px;
+    font-size: 20px;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+}
+.return-btn a{
+    color: #fff;
+    width: 100%;
+}
+table{
+    font-size: .65rem;
+    margin-top: 30px;
+}
+.btn-group.bootstrap-select {
+    margin: 10px auto;
+    width: 95%;
+    font-size: .7rem;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+select {
+    width: 90% !important;
+    border: 1px solid #007bff;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+select:focus{
+    outline: unset;
+}

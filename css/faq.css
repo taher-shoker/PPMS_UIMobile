@@ -1,0 +1,38 @@
+.navbar{
+    height: auto;
+}
+.nav-title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.return-btn{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 9px;
+    font-size: 20px;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+}
+.return-btn a{
+    color: #fff;
+    width: 100%;
+}
+.content{
+    background-color: #fff;
+}
+
+.questions{
+    margin: 20px auto;
+    width: 95%;
+
+}
+.questions ul{
+    padding: 0 20px;
+    list-style-type: square;
+}
+.questions ul li {
+    margin: 10px auto;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="PPMS">
+    <link href="" rel="shortcut icon" type="image/x-icon">
+
+    <title>PPMS app </title>
+    <!--=========== Bootstrap RTL Style ===============-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--=========== FontAwesome  ===============-->
+    <link rel="stylesheet" href="./css/all.css">
+    <!--=========== Animations Css  ===============-->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!--=========== hover Css  ===============-->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!--=========== google fonts   ===============-->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+    <!--=========== SWiper CSS Style ===============-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!--=========== Main CSS Style ===============-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--=========== Home page CSS Style ===============-->
+    <link rel="stylesheet" href="./css/network.css">
+
+
+</head>
+
+<body>
+    <section class="app">
+        <!-- Start Home page in App -->
+        <section class=" screen">
+            <nav class="navbar navbar-expand-lg  navbar-dark">
+                <div class="title">
+                    الشبكة
+                </div>
+                <div class="return-btn">
+                    <a href="home.html"><i class="fas fa-arrow-left"></i></a>
+                  </div>
+            </nav>
+
+            <!--========================style for topics in home page  =============================-->
+
+            <section class="content">
+                <div class="card">
+               
+                    <div class="divo" style="direction:rtl;text-align:right;">
+                        <div class="btn-group bootstrap-select">
+                            
+                                   
+                             
+                            <select id="catselect"  class="" tabindex="-98">
+                                <option value="" selected="">--اختر القطاع--</option>
+                                <option value="مستشفى">مستشفى</option>
+                                <option value="صيدليات">صيدليات</option>
+                                <option value="معامل">معامل</option>
+                             
+                            </select>
+                        </div>
+
+                        <div class="btn-group bootstrap-select">
+                       <select id="govselect"  class="" tabindex="-98">
+                                <option value="" selected="">--اختر المحافظة--</option>
+                                <option value="القاهرة">القاهرة</option>
+                                <option value="القليوبية">القليوبية</option>
+                                <option value="الجيزة">الجيزة</option>
+                                <option value="الاسكندرية">الاسكندرية</option>
+                                <option value="بورسعيد">بورسعيد</option>
+                                <option value="السويس">السويس</option>
+                                <option value="دمياط">دمياط</option>
+                                <option value="الفيوم">الفيوم</option>
+                                <option value="الإسماعيلية">الإسماعيلية</option>
+                                <option value="المنوفية">المنوفية</option>
+                         
+                            </select>
+                        </div>
+
+                        <div class="btn-group bootstrap-select">
+                         <select id="regionselect" style="width:200px;" class="" tabindex="-98">
+                                <option value="">--اختر المنطقة--</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="body table-responsive">
+
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>اسم الشركة</th>
+                                    <th>عن الشركة</th>
+                                    <th>الخصومات</th>
+                                    <th>كوبونات</th>
+                                    <th>عدد الفروع</th>
+                                    <th>التقييم</th>
+                                </tr>
+                            </thead>
+                            <tbody id="netbody" style="text-align: right;">
+                                <!-- start labs -->
+                                <tr
+                                    onclick="window.location.replace(' ProfileView4.php?val=1&amp;val3=17ba0791499db908433b80f37c5fbc89b870084b356a192b7913b04c54574d18c28d46e6395428ab5297')">
+                                    <td><span class="sponsers-logo"><img src="./control/data/logo/1/1.jpg" alt="">مستشفي
+                                            فيفا العقاد </span></td>
+                                    <td class="sponsers-desc"><span class="text-muted "></span></td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                </tr>
+                              
+                    
+                              
+                          
+                         
+                        
+                             
+                          
+                                
+                               
+                            </tbody> <!-- end labs -->
+                        </table>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <footer>
+				<div class="footer-bar">
+					<a href="home.html">
+						<div class="icon active">
+							<i class="fas fa-home"></i>
+							الرئيسية
+			
+						</div>
+					</a>
+					<a href="offers.html" class="">
+						<div class="icon">
+							<i class="fas fa-tags"></i>
+							عروض
+			
+						</div>
+					</a>
+					<a href="login.html" class="">
+						<div class="icon">
+							<i class="fas fa-user-alt"></i>
+							حسابى
+						</div>
+					</a>
+					 <a href="emptyCart.html" class="">
+			
+						<div class="icon">
+							<i class="fas fa-cart-plus"></i>
+							<span class="num-cart">2</span>
+							العربة
+						</div>
+					</a>
+				<!-- 	<a href="#" class="">
+						<div class="icon">
+							<i class="far fa-heart"></i>
+							المفضلة
+						</div>
+			
+					</a> -->
+					<a href="setting.html" class="">
+						<div class="icon">
+							<i class="fas fa-bars"></i>
+							المزيد
+						</div>
+			
+					</a>
+			
+			
+				</div>
+			</footer>
+        </section>
+
+    </section>
+
+
+
+    <!--================================== Jquery CDN Links & bootstap Links ========================================-->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/customAnimation.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

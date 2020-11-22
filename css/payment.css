@@ -1,0 +1,188 @@
+.navbar{
+    height: auto;
+}
+.nav-title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.return-btn{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 9px;
+    font-size: 20px;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+}
+.return-btn a{
+    color: #fff;
+    width: 100%;
+}
+.content{
+    background-color: #dee2e6;
+
+}
+.total-payment{
+
+width: 100%;
+
+display: flex;
+
+padding: 20px;
+
+justify-content: space-between;
+
+align-items: center;
+
+font-size: .7rem;
+
+background-color: #fff;
+}
+.total-payment .title-pay{
+
+}
+.total-payment .value-pay{
+    
+font-size: 1rem;
+    
+font-weight: bold;
+color: #007bff;
+}
+.total-payment .value-pay span{
+    font-size: .8rem;
+    color: #000;
+}
+.pay-way h6 {
+    
+    color: #007bff;
+    margin-top: 10px;
+    
+
+}
+.pay-way ul li {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: 15px auto;
+    border-radius: 5px;
+    height: 40px;
+}
+.pay-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ .pay-img{
+    width: 30px;
+    border-radius: 20px;
+}
+ .pay-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.visa-card  ul li {
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+}
+.visa-card .number-card, .visa-card .date-card{
+    text-align: center;
+}
+.visa-card input[type="text"], .visa-card input[type="date"] {
+    width: 90%;
+    border: 1px solid #d0c6c6;
+    padding: 10px 15px;
+    font-size: .8rem;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: unset;
+}
+.pay-btn {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.date-card{
+}
+.date-card label {
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    color: #007bff;
+    margin: 10px auto;
+    display: block;
+}
+
+select{
+    border: unset;
+    width: 90px;
+    direction: ltr;
+}
+select:focus,textarea:focus,button:focus{
+    outline: none;
+}
+.card-input{
+    width: 90px!important;
+    border: unset;
+    height: 32px !important;
+    padding: 0 5px;
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    color: #d0c6c6;
+    font-size: .7rem;
+}
+.form-group select{
+    font-size: .8rem;
+    color: #737070;
+}
+.form-group textarea {
+    padding: 10px 15px;
+    height: 80px;
+    font-size: .75rem;
+    color: #737070;
+    border-radius: 5px;
+}
+.instraction{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+}
+.instraction .insert-coupon{
+    background-color: transparent;
+    color: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: unset;
+  
+}
+.normal-input
+ {
+    /* background-color: #2f80ed !important; */
+    padding: 8px 8px 8px 2px;
+    border-radius: 0px !important;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    /* background-color: #ECEFF1; */
+    border: none;
+    border: 1px solid #ccc;
+    font-size: 12px !important;
+    /* color: #fff !important; */
+    font-weight: 300;
+}

@@ -1,0 +1,106 @@
+
+
+#progressbar{
+    margin-top: -10px;
+}
+
+
+.title-insurnce{
+    text-align: left;
+    background-color: #2f80ed;
+ }
+ .title-insurnce h5{
+     margin-bottom: 0;
+     padding: 7px 0;
+     color: #fff;
+     margin-left: 12px;
+     font-weight: bold;
+     font-size: 11.5px;
+     text-transform: uppercase;
+ }
+ .description-insurnce{
+     /* background-color: #fff; */
+     /* border-bottom: 1px solid #2f80ed; */
+ }
+ .description-insurnce p{
+     padding: 11px 15px;
+     color: #000;
+     text-align: left;
+     font-size: 13px;
+     border-bottom: 1px solid #2f80ed;
+     height: 130px;
+     overflow: auto;
+ }
+ 
+ 
+ 
+ .h-custom{
+     height: 60px;
+ }
+ 
+ 
+ textarea {
+     width: 90%;
+     padding: 7px 3px;
+     margin-left: -30px;
+     border: 2px solid #5e9df1;
+     font-size: 14px;
+     resize: none;
+ }
+ hr {
+     border-color: #fff !important;
+     opacity: .6;
+     width: 60%;
+     margin: 1rem auto;
+ }
+ 
+ 
+ 
+ input,textarea:focus {
+     outline: none;
+     border-bottom: 2px solid #2f80ed !important;
+  }
+ 
+ 
+ 
+ 
+ 
+
+ 
+ /****************style for addEmployee page ****************/
+ 
+ /*=========================Style for media queries  ============================*/
+ 
+ @media (max-width: 320px) {
+   
+  
+   }
+ 
+ /* Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 375px) {
+ 
+ }
+ /* Extra small devices (portrait phones, less than 576px)*/
+ @media (min-width: 375px) {
+ .h-custom{
+     height: 80px;
+ }   
+.description-insurnce p{
+    padding: 15px;
+}
+#progressbar {
+    margin-top: 0px;
+}
+   
+ }
+     
+ /* Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+    
+ }
+ /* Small devices (landscape phones, less than 768px)*/
+ @media (min-width: 767.98px) {
+    
+  }
+ 
+ 

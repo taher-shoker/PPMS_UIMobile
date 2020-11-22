@@ -1,0 +1,112 @@
+.navbar{
+    height: auto;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.return-btn{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 9px;
+    font-size: 20px;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+}
+.return-btn a{
+    color: #fff;
+    width: 100%;
+}
+.notification-box{
+   
+}
+h5{
+    font-size: .8rem;
+    padding: 10px 10px 0 0;
+    margin: 0 auto;
+    color: red;
+}
+.notification-box ul{
+    padding: 10px 0;
+}
+.notification-box ul li {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    border-bottom: 1px solid #efefef;
+}
+.note-img{
+    width: 15%;
+    height: 70px;
+}
+.note-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.note-info{
+    
+width: 80%;
+    
+display: flex;
+    
+flex-direction: column;
+    
+/* align-items: center; */
+    
+justify-content: space-between;
+    
+height: 87px;
+}
+.note-info .note-title{
+    font-size: .7rem;
+    color: #007bff;
+}
+.note-info .note-des{
+    font-size: .7rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 215px;
+    /* height: 1.2em; */
+    white-space: nowrap;
+    color: #a29898;
+}
+.note-info .note-date{
+    color: #6d6c6c;
+    direction: ltr;
+    font-size: .6rem;
+}
+
+/*****************  single notification*********************/
+
+.single-note{
+
+}
+.single-note .image-box{
+   
+}
+.single-note .image-box img{
+    width: 100%;
+    height: 100%;
+}
+.single-note .single-title{
+    color: #007bff;
+    padding: 10px;
+}
+.single-note .description{
+    padding: 10px;
+    font-size: .8rem;
+}
+.code,.date{
+    padding: 10px;
+    font-size: .8rem;
+    direction: ltr;
+}

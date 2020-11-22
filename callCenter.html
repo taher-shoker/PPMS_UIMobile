@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="PPMS">
+	<link href="" rel="shortcut icon" type="image/x-icon">
+
+	<title>PPMS app </title>
+	<!--=========== Bootstrap RTL Style ===============-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--=========== FontAwesome  ===============-->
+	<link rel="stylesheet" href="./css/all.css">
+	<!--=========== Animations Css  ===============-->
+	<link rel="stylesheet" href="./css/animate.css">
+	<!--=========== hover Css  ===============-->
+	<link rel="stylesheet" href="./css/hover.css">
+	<!--=========== google fonts   ===============-->
+	<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+	<!--=========== SWiper CSS Style ===============-->
+	<link rel="stylesheet" href="./css/swiper-bundle.min.css">
+	<!--=========== Main CSS Style ===============-->
+	<link rel="stylesheet" href="./css/main.css">
+	<!--=========== Home page CSS Style ===============-->
+	<link rel="stylesheet" href="./css/call-center.css">
+  
+</head>
+
+<body>
+	<section class="app">
+		<!-- Start Home page in App -->
+		<section class=" screen">
+			<nav class="navbar navbar-expand-lg  navbar-dark">
+                <div class="nav-title">
+                    خدمة العملاء
+                </div>
+                <div class="return-btn">
+                    <a href="home.html"><i class="fas fa-arrow-left"></i></a>
+                </div>
+			</nav>
+
+			<!--========================style for topics in home page  =============================-->
+		
+			<section class="content">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">خدمة العملاء</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">إدارة الفروع</a>
+                    </li>
+                   
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                        <div class="scan-box">
+                            <div class="scan-input">
+                                <input type="text" class="input-member" placeholder="رقم العضوية">
+                            </div>
+                            <div class="submit-btn">
+                                <button class="btn btn-primary" type="button">Scan</button>
+                            </div>
+                        </div>
+                     <!--    -->
+                        <div class="form-result">
+                            <div class="pic-client">
+                                <img src="./imgs/default/152-1520367_user-profile-default-image-png-clipart-png-download.png" alt="">
+                            </div>
+                            <div class="input-group">
+                                <label for="">الاسم:</label>
+                                <input type="text">
+                            </div>
+                            <div class="input-group">
+                               <label for="">الخدمة:</label>
+                               <select>
+                                   <option value=""> إختار نوع الخدمة</option>
+                               </select>
+                           </div>
+                           <div class="input-group">
+                               <label for="">الكوبون:</label>
+                               <input type="text">
+                           </div>
+                           <div class="input-group">
+                               <label for="">سعر الخدمة :</label>
+                               <input type="text">
+                           </div>
+                           <div class="input-group">
+                               <label for="">نسبة الخصم:</label>
+                               <input type="text">
+                           </div>
+                           <div class="input-group">
+                               <label for="">السعر النهائى:</label>
+                               <input type="text" readonly value="5000">
+                           </div>
+                           <div class="input-group">
+                               <button type="submit" class="btn btn-primary"> موافق</button>
+       
+                           </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                        <div class="input-group">
+                            <select id="govselect"  class="" tabindex="-98">
+                                <option value="" selected="">--اختر المحافظة--</option>
+                                <option value="القاهرة">القاهرة</option>
+                                <option value="القليوبية">القليوبية</option>
+                                <option value="الجيزة">الجيزة</option>
+                                <option value="الاسكندرية">الاسكندرية</option>
+                                <option value="بورسعيد">بورسعيد</option>
+                                <option value="السويس">السويس</option>
+                                <option value="دمياط">دمياط</option>
+                                <option value="الفيوم">الفيوم</option>
+                                <option value="الإسماعيلية">الإسماعيلية</option>
+                                <option value="المنوفية">المنوفية</option>
+                         
+                            </select>
+                        </div>
+                       
+                 
+
+                    <div class="input-group">
+                     <select id="" class="" tabindex="-98">
+                            <option value="">--اختر المنطقة--</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                       <textarea name="" id="" cols="10" rows="10" placeholder="العنوان كامل"></textarea>
+                       </div>
+                       <!--  <div class="branches">
+                            <h5>إدارة الفروع</h5>
+                            <ul>
+                                <a href="https://www.google.com/maps/place/Al+Teraa,+Saft+Al+Laban,+Bolak+Al+Dakrour,+Giza+Governorate/@30.0294838,31.1624981,17z/data=!3m1!4b1!4m5!3m4!1s0x145844218cbcbc73:0x5ef46c083ce6575e!8m2!3d30.0294792!4d31.1646868">
+                                   <li>
+                                       <span>صفط اللبن - 4 شارع ترعة عبد العال
+                                           1 تقاطع العشرين - صفط اللبن
+                                       </span>
+                                       <div class="marker">
+                                       <i class="fas fa-map-marked-alt"></i>
+                                       </div>
+                                     
+                                   </li>
+                                </a>
+                                <a href="https://www.google.com/maps/place/Al+Teraa,+Saft+Al+Laban,+Bolak+Al+Dakrour,+Giza+Governorate/@30.0294838,31.1624981,17z/data=!3m1!4b1!4m5!3m4!1s0x145844218cbcbc73:0x5ef46c083ce6575e!8m2!3d30.0294792!4d31.1646868">
+                                   <li>
+                                       <span>صفط اللبن - 4 شارع ترعة عبد العال
+                                           1 تقاطع العشرين - صفط اللبن
+                                       </span>
+                                       <div class="marker">
+                                       <i class="fas fa-map-marked-alt"></i>
+                                       </div>
+                                     
+                                   </li>
+                                </a>
+                                <a href="https://www.google.com/maps/place/Al+Teraa,+Saft+Al+Laban,+Bolak+Al+Dakrour,+Giza+Governorate/@30.0294838,31.1624981,17z/data=!3m1!4b1!4m5!3m4!1s0x145844218cbcbc73:0x5ef46c083ce6575e!8m2!3d30.0294792!4d31.1646868">
+                                   <li>
+                                       <span>صفط اللبن - 4 شارع ترعة عبد العال
+                                           1 تقاطع العشرين - صفط اللبن
+                                       </span>
+                                       <div class="marker">
+                                       <i class="fas fa-map-marked-alt"></i>
+                                       </div>
+                                     
+                                   </li>
+                                </a>
+                              
+                            </ul>
+                        </div> -->
+                        <div class="map-box">
+                            <div id="map"></div>
+                        </div>
+                   
+                    </div>
+                  </div>
+				
+              
+
+			</section>
+
+
+
+			<!-- Start Footer  -->
+            <footer>
+				<div class="footer-bar">
+					<a href="home.html">
+						<div class="icon active">
+							<i class="fas fa-home"></i>
+							الرئيسية
+			
+						</div>
+					</a>
+					<a href="offers.html" class="">
+						<div class="icon">
+							<i class="fas fa-tags"></i>
+							عروض
+			
+						</div>
+					</a>
+					<a href="login.html" class="">
+						<div class="icon">
+							<i class="fas fa-user-alt"></i>
+							حسابى
+						</div>
+					</a>
+					 <a href="emptyCart.html" class="">
+			
+						<div class="icon">
+							<i class="fas fa-cart-plus"></i>
+							<span class="num-cart">2</span>
+							العربة
+						</div>
+					</a>
+				<!-- 	<a href="#" class="">
+						<div class="icon">
+							<i class="far fa-heart"></i>
+							المفضلة
+						</div>
+			
+					</a> -->
+					<a href="setting.html" class="">
+						<div class="icon">
+							<i class="fas fa-bars"></i>
+							المزيد
+						</div>
+			
+					</a>
+			
+			
+				</div>
+			</footer>
+		</section>
+	
+	</section>
+
+
+
+	<!--================================== Jquery CDN Links & bootstap Links ========================================-->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/wow.js"></script>
+	<script src="./js/customAnimation.js"></script>
+	<script src="./js/swiper-bundle.min.js"></script>
+	<script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+    defer
+  ></script>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+    </script>
+</body>
+
+</html>

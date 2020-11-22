@@ -1,0 +1,31 @@
+ul#pills-tab {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    background: #ececee;
+    border-radius: unset;
+    width: 100%;
+}
+li.nav-item {
+    width: 40%;
+}
+.form {
+    width: 80%;
+    margin: 0px auto;
+    padding: 15px;
+    border: 1px solid #c7bcbc;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.send-btn {
+    width: 60%;
+    margin: 30px auto;
+}
+.send-btn button{
+    border-radius: 10px !important;
+}

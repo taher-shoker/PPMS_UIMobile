@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="author" content="PPMS">
+ <link href="" rel="shortcut icon" type="image/x-icon">
+ <title>PPIb</title>
+  <!--=========== Bootstrap Style ===============-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--=========== FontAwesome  ===============-->
+	<link rel="stylesheet" href="./css/all.css">
+
+ <style>
+   
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 25em;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #007bff;
+  font-size: 1rem;
+}
+
+.loader {
+  margin: auto;
+  margin-top: 8em;
+  margin-bottom: 1em;
+  width: 20em;
+  height: 1em;
+  background: transparent;
+  background-position: -10px 0;
+  border: solid 1px #555555;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.loader:before {
+  content: "";
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  animation: loader 10s ease-out infinite;
+  background: linear-gradient(to right, #007bff 0%, #007bff 50%, #eeeeee 50%, #eeeeee 100%);
+}
+
+@keyframes loader {
+  0% {
+    left: -100%;
+  }
+  75% {
+    left: -10%;
+  }
+  85% {
+    left: -5%;
+  }
+  95% {
+    left: 0;
+  }
+}
+
+ </style>
+</head>
+
+<body>
+
+  <!--Start Loading Screen-->
+  <div class="loading-mesage">
+    <div class="loader"> </div>
+    <h2>... جارى تحميل البيانات </h2>
+  </div>
+ 
+        
+
+  <!--================================== Jquery CDN Links & bootstap Links ========================================-->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/jquery-1.11.1.min.js"></script>
+  <script src="./js/popper.min.js" ></script>
+  <script src="./js/bootstrap.min.js" ></script>
+  <script type="text/javascript" src="cordova.js"></script>
+ <script src="./js/index.js"></script>
+</body>
+
+</html>

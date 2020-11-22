@@ -1,0 +1,183 @@
+.navbar{
+    height: auto;
+}
+.nav-title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.return-btn{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    left: 9px;
+    font-size: 20px;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+}
+.return-btn a{
+    color: #fff;
+    width: 100%;
+}
+.content{
+    background-color: #fff;
+}
+.scan-box{
+
+/* width: 80%; */
+
+margin: 0px auto;
+
+display: flex;
+
+justify-content: space-between;
+
+background: #fff;
+
+padding: 25px 15px;
+
+align-items: center;
+}
+.scan-box .scan-input{
+
+width: 100%;
+}
+.scan-box .scan-input .input-member{
+
+width: 90%;
+
+border-radius: 10px;
+
+border: 1px solid #007bff;
+
+padding: 5px 13px;
+font-size: .8rem;
+}
+.scan-box .submit-btn{
+}
+.submit-btn button{
+    
+width: 100%;
+    
+padding: 2px 10px;
+}
+.branches{
+    width: 100%;
+    padding: 20px;
+}
+.branches h5{
+ font-size: 1rem;
+ padding: 5px;
+}
+.branches ul a {
+    margin: 10px 0;
+}
+.branches ul a  li {
+    display: flex;
+    width: 100%;
+    border: 1px solid #a99e9e;
+    /* padding: 5px 8px; */
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 70px;
+    margin: 15px auto;
+}
+.branches ul a  li span{
+
+padding: 16px;
+}
+.branches ul a  li .marker{
+    width: 100px;
+    height: 100%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 4;
+    border-radius: 10px 0 0 10px;
+}
+.branches ul a  li .marker i{
+    font-size: 1.5rem;
+}
+.form-result{
+
+width: 90%;
+
+padding: 10px 20px;
+
+border: 1px solid #ededed;
+
+margin: 0 auto;
+}
+.form-result .pic-client{
+
+width: 100px;
+
+margin: 10px auto;
+
+height: 100px;
+
+border-radius: 0;
+}
+.form-result .pic-client img{
+    width: 100%;
+    height: 100%;
+}
+.input-group {
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+input,select{
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #c7bfbf;
+    background: transparent;
+    padding: 3px 10px;
+    font-size: .7rem;
+}
+.form-result label{
+    text-align: right;
+    font-size: .7rem;
+}
+input:focus, input:active{
+    border: 1px solid #c7bfbf !important;
+
+}
+.form-result button {
+    width: 50%;
+    margin: 24px auto;
+    padding: 5px 10px;
+    font-size: .8rem;
+}
+ul#pills-tab {
+    margin-top: 10px;
+    width: 100%;
+    /* margin-right: 40px; */
+    justify-content: center;
+}
+.nav-link{
+    background-color: #e4e4e4;
+}
+div#pills-profile select{
+    margin: 10px auto;
+}
+textarea {
+    width: 70%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: .7rem;
+    border-radius: 10px;
+    height: 70px;
+}
+.map-box{
+    width: 100%;
+    height: 70px;
+}
+#map {
+    height: 290px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }

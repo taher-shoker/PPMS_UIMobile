@@ -1,0 +1,91 @@
+.content{
+    background-color: #fff;
+}
+.all-offers{
+    padding: 5px 20px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.all-offers .offer{
+    width: 100%;
+    background-color: #fffbfb;
+    border: 1px solid #ededee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 140px;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 4px 3px 16px #c7c1c1;
+    margin: 15px auto;
+    
+}
+.offer .offer-title {
+    font-size: .8rem;
+    color: #007bff;
+    text-align: center;
+    width: 180px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    
+}
+.offer .offer-image{
+    width: 70px;
+    height: 55px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+}
+.offer-image img{
+    width: 100%;
+    height: 100%;
+}
+.offer .offer-description{
+
+width: 80%;
+
+margin: 0 auto;
+
+text-align: left;
+
+font-size: .7rem;
+}
+.offer .offer-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.offer-info .num-descount, .offer-info .num-coupon, .offer-info .call{
+    font-size: .65rem;
+    color: #a7a49e;
+}
+.view-more{
+    width: 50%;
+    margin: 20px auto;
+    
+}
+.view-more button{
+    background-color: #007bff;
+    color: #fff;
+    font-size: .65rem;
+    font-weight: 800;
+    width: 80%;
+    padding: 5px 0;
+    border: unset;
+    border-radius: 10px;
+
+}
+.red-color{
+    color: red;
+}

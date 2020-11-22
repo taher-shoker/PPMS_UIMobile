@@ -1,0 +1,44 @@
+{
+    "lastOffer": [
+
+                {
+                    "id": 1,
+                    "title": "مستشفــــي دار الحكمة",
+                    "offerDate":"10/8/2020",
+                    "offerDiscount":"6%",
+                    "offerImgs":""
+                },
+                {
+                    "id": 2,
+                    "title": " ستارز للبصريات ",
+                    "offerDate":"10/8/2020",
+                    "offerDiscount":"6%",
+                    "offerImgs":""
+                }
+            ],
+    "topDiscount": [
+
+        {
+            "id": 1,
+            "title": "مستشفــــي دار الحكمة",
+            "offerDate":"10/8/2020",
+            "offerDiscount":"6%",
+            "offerImgs":"/"
+        },
+        {
+            "id": 2,
+            "title": " ستارز للبصريات ",
+            "offerDate":"10/8/2020",
+            "offerDiscount":"6%",
+            "offerImgs":""
+        }
+    ]
+          
+           
+           
+   
+    
+   
+
+
+}

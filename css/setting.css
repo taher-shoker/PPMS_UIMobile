@@ -1,0 +1,103 @@
+.navbar{
+    height: auto;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.content{
+    background: #f8f9fa;
+}
+.login-registor{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ededed;
+    background-color: #e26a89;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.login-registor a{
+    color: #fff;
+}
+.help-links{
+    width: 90%;
+    margin: 10px auto;
+}
+.help-links ul {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 5px 0px 0;
+    margin: 25px auto;
+}
+
+.help-links ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.help-links ul li .link-img{
+    width: 55px;
+    height: 55px;
+    padding-bottom: 10px;
+}
+.help-links ul li .link-img img{
+    width: 100%;
+    height: 100%;
+}
+.help-links ul li a span{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #bfbdbd;
+    color: #000;
+    font-size: .75rem;
+}
+.help-links ul li:last-of-type a span{
+    border-bottom:unset;
+}
+.copyrights {
+    text-align: center;
+    height: 120px;
+}
+.copyrights p{
+    width: 100%;
+    text-align: center;
+    color: #a4a7ab;
+    font-size: .6rem;
+    font-weight: 200;
+}
+.copyrights .logo{
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+.copyrights .logo  img{
+    width: 100%;
+    height: 100%;
+}
+.setings {
+    height: 300px;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+form {
+    padding: 20px;
+}
+
+label{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: darkgray;
+}
+select {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-bottom: 1px solid #ededed;
+}

@@ -1,0 +1,370 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+
+    height: 100%;
+    width: 100%;
+   
+    }
+    
+.btn-success {
+    background: #006241;
+    border: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+
+
+p {
+    margin-bottom: 0;
+    padding: 10px;
+   
+}
+select{
+    background-color: transparent !important;
+}
+
+h4 {
+    color:#758ba2;
+    letter-spacing: 1px;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+
+/*===================== General Style for all pages  ==============================*/
+
+section.app {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.screen{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-transform: translateX(0%) translateY(0px) ;
+    -moz-transform:  translateX(0%) translateY(0px) ;
+    -ms-transform:  translateX(0%) translateY(0px) ;
+    -o-transform:  translateX(0%) translateY(0px) ;
+    transform:   translateX(0%) translateY(0px) ;
+    transition: all .5s ease-in-out;
+    position: relative;
+    z-index: 3;
+  
+}
+.screen.active{
+    position: relative;
+    z-index: 3;
+    -webkit-transform: translateX(60%) translateY(80px) scaleY(.7);
+    -moz-transform: translateX(60%) translateY(80px) scaleY(.7);
+    -ms-transform: translateX(60%) translateY(80px) scaleY(.7);
+    -o-transform: translateX(60%) translateY(80px) scaleY(.7);
+    transform: translateX(54%) translateY(65px) scaleY(.7);
+    transition: all .5s ease-in-out;
+}
+.content{
+    
+    flex-grow: 5;
+    overflow: auto;
+    background-color: #FCF6F5FF;
+}
+
+/*======================= Style for footer==========================*/
+footer {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #ffffff;
+}
+footer .footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 97%;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+    /* margin-top: -2px; */
+    border-top: 1px solid #007bff;
+    position: relative;
+}
+footer .footer-bar a{
+    width: 20%;
+    height: 100%;
+    position: relative;
+
+}
+footer .footer-bar .icon {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+    font-size: .55rem;
+    color: #758ba2;
+   
+}
+footer .footer-bar .icon a{
+    text-transform: capitalize;
+    color: #a0a2a0;
+    font-size: 9px;
+}
+footer .footer-bar .icon i{
+
+    color: #a0a2a0;
+    font-size: 15px;
+    padding: 7px;
+}
+footer .footer-bar .icon.active{
+    color: #007bff;
+}
+footer .footer-bar .icon.active i{
+    color: #007bff;
+   
+}
+footer .footer-bar .icon.active a{
+    color: #007bff;
+}
+.num-cart{
+    background-color: #007bff;
+    color: #fff;
+    padding: 0px 6px;
+    border-radius: 50%;
+    font-size: .75rem;
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+/*==================== style for navbar ==============*/ 
+
+.navbar  {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ align-items: center;
+ background-color: #007bff;
+ height: 70px;
+ }
+.navbar-brand {
+    margin: 0;
+    width: 50px;
+   
+}
+.navbar-brand i {
+    font-size: 1.5rem;
+}
+.navbar-brand span {
+    background-color: #fff;
+    color: #007bff;
+    padding: .2rem .5rem;
+    border-radius: 50%;
+    font-size: .6rem;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+    right: -8px;
+}
+
+ .search-box{
+    border-radius: 20px;
+    background-color:#fff;
+    position: relative;
+    padding: 4px 0;
+    width: 80%;
+}
+.notification{
+    width: 20%;
+}
+ .search-box::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    padding: 0 5px;
+    font-size: .8rem;
+    color: #bfbdbd;
+}
+.search-box input{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+    font-size: .7rem;
+}
+ .search-box input::placeholder{
+    color:#bfbdbd ;
+    text-transform: capitalize;
+}
+input[type=text]:focus{
+    outline: none;
+    border: none;
+
+}
+.location {
+    background-color: #758ba2;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: 70px;
+}
+.location .icon{
+    width: 30px;
+    font-size: 1.5rem;
+}
+.location .location-name{
+    width: 87%;
+    font-size: .7rem;
+}
+.btn-change{
+    font-size: .7rem;
+}
+.points {
+    background-color: #e26a89;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.points .title h6{
+    margin-bottom: 0;
+    font-size: .7rem;
+}
+.points .login-registor{
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: .7rem;
+}
+.login-registor a{
+    color: #e26a89;
+    font-weight: bold;
+}
+/* .navbar-collapse.show{
+  
+}  */
+
+
+
+
+/*==================== style for img in help buttons ==============*/ 
+
+
+
+
+
+
+
+
+/*=========================Style for media queries  ============================*/
+/* small devices (portrait phones, less than 375px)*/
+@media (min-width: 320px) { 
+    .nav-tabs .nav-item .nav-link{
+        font-size: 12px
+    }
+    .navbar-nav i {
+        font-size: 11px;
+    }
+    .navbar-nav .nav-link{
+        font-size: 10px;
+    }
+
+    .footer-bar .add-btn{
+        padding-top: 12px;
+    }
+    .footer-bar .add-btn button{
+        font-size: 30px;
+    }
+}
+
+/* small devices (portrait phones, less than 375px)*/
+@media (min-width: 375px) { 
+    .footer-bar .add-btn{
+        padding-top: 5px;
+    }
+    .footer-bar .add-btn button{
+        font-size: 35px;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 400.98px) { 
+    .nav-tabs .nav-item .nav-link{
+        font-size: 16px
+    }
+    .navbar-nav i {
+        font-size: 18px;
+    }
+    .footer-bar .add-btn button{
+        font-size: 40px;
+    }
+    .nav-link {
+        margin-top: 0px;
+    }
+
+ 
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+    .nav-link {
+        margin-top: 0px;
+    }
+  
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .nav-link {
+        margin-top: 0px;
+    }
+  
+    .title::before{
+        left: -20%;
+    }
+  .title::after{
+         right: -20%;
+     }
+ }

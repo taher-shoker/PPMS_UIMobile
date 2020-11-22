@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="PPMS">
+	<link href="" rel="shortcut icon" type="image/x-icon">
+
+	<title>PPMS app </title>
+	<!--=========== Bootstrap RTL Style ===============-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--=========== FontAwesome  ===============-->
+	<link rel="stylesheet" href="./css/all.css">
+	<!--=========== Animations Css  ===============-->
+	<link rel="stylesheet" href="./css/animate.css">
+	<!--=========== hover Css  ===============-->
+	<link rel="stylesheet" href="./css/hover.css">
+	<!--=========== google fonts   ===============-->
+	<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+	<!--=========== SWiper CSS Style ===============-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+      <!--=========== sweetAlert Css  ===============-->
+  <link rel="stylesheet" href="./css/sweetalert2.min.css">
+	<!--=========== Main CSS Style ===============-->
+	<link rel="stylesheet" href="./css/main.css">
+	<!--=========== Home page CSS Style ===============-->
+	<link rel="stylesheet" href="./css/payment.css">
+
+
+</head>
+
+<body>
+	<section class="app">
+		<!-- Start Home page in App -->
+		<section class=" screen">
+			<nav class="navbar navbar-expand-lg  navbar-dark">
+                <div class="nav-title">
+                     الدفع
+                </div>
+                <div class="return-btn">
+                    <a href="home.html"><i class="fas fa-arrow-left"></i></a>
+                </div>
+			</nav>
+
+			<!--========================style for topics in home page  =============================-->
+		
+			<section class="content">
+			<div class="total-payment">
+                <div class="title-pay">إجمالى الدفع</div>
+                <div class="value-pay">5000 <span>جنية</span></div>
+            </div>
+            <div class="pay-way">
+				<div class="instraction">
+					<h6>طرق الدفع</h6>
+					<button type="button" class="insert-coupon" data-toggle="modal" data-target="#coupon"> ادخل كود العرض</button>
+				</div>
+				
+				
+                <ul>
+                    <li>
+                        <div class="radio-pay">
+                            <input type="radio" name="payments"/>
+                        </div>
+                        <div class="pay-info">
+                            <div class="title">أمان</div>
+                            <div class="sub-title"></div>
+                        </div>
+                        <div class="pay-img">
+                            <img src="./imgs/payments/aman.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio-pay">
+                            <input type="radio" name="payments"/>
+                        </div>
+                        <div class="pay-info">
+                            <div class="title">بي</div>
+                            <div class="sub-title"></div>
+                        </div>
+                        <div class="pay-img">
+                            <img src="./imgs/payments/bee.jpeg" alt="">
+                        </div>
+					</li>
+					<li>
+                        <div class="radio-pay">
+                            <input type="radio" name="payments"/>
+                        </div>
+                        <div class="pay-info">
+                            <div class="title">فورى</div>
+                            <div class="sub-title"></div>
+                        </div>
+                        <div class="pay-img">
+                            <img src="./imgs/payments/fawry.png" alt="">
+                        </div>
+                    </li>
+                  
+
+                </ul>
+                <div class="visa-card">
+                    <ul>
+                        <li>
+                            <div class="radio-pay">
+                                <input type="radio" name="visa"/>
+                            </div>
+                            <div class="pay-info">
+                                <div class="title">فيزا</div>
+                                <div class="sub-title"></div>
+                            </div>
+                           
+							<div class="pay-img">
+								<img src="./imgs/payments/visa.jpeg" alt="">
+
+								
+                            </div>
+                        </li>
+                        <div class="number-card">
+                            <input type="text" placeholder=" إسم صاحب الكرت">
+						</div>
+						<div class="number-card">
+                            <input type="text" placeholder="رقم الكرت">
+                        </div>
+                        <div class="date-card">
+							<label for=""> تاريخ الإنتهاء</label>
+							<input type="" name="" value="CVV" class="card-input">
+
+                        
+						   <select>
+							   <option>YYY</option>
+							   <option>2021</option>
+							   <option>2020</option>
+							   <option>2019</option>
+							   
+						   </select>
+						   <select>
+							<option>MM</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+                        </div>
+                      
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="pay-btn">
+                <button type="button" class="btn btn-primary" id="" data-toggle="modal" data-target="#pays">تأكيد الدفع</button>
+            </div>
+				
+			</section>
+
+
+
+			<!-- Start Footer  -->
+			<footer>
+				<div class="footer-bar">
+					<a href="home.html">
+						<div class="icon active">
+							<i class="fas fa-home"></i>
+							الرئيسية
+			
+						</div>
+					</a>
+					<a href="offers.html" class="">
+						<div class="icon">
+							<i class="fas fa-tags"></i>
+							عروض
+			
+						</div>
+					</a>
+					<a href="login.html" class="">
+						<div class="icon">
+							<i class="fas fa-user-alt"></i>
+							حسابى
+						</div>
+					</a>
+					 <a href="emptyCart.html" class="">
+			
+						<div class="icon">
+							<i class="fas fa-cart-plus"></i>
+							<span class="num-cart">2</span>
+							العربة
+						</div>
+					</a>
+				<!-- 	<a href="#" class="">
+						<div class="icon">
+							<i class="far fa-heart"></i>
+							المفضلة
+						</div>
+			
+					</a> -->
+					<a href="setting.html" class="">
+						<div class="icon">
+							<i class="fas fa-bars"></i>
+							المزيد
+						</div>
+			
+					</a>
+			
+			
+				</div>
+			</footer>
+		</section>
+		<div class="modal fade" id="pays" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">تأكيد العنوان</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+		 
+					<div class="row">
+						<div class="col-12">
+						  <div class="form-group">
+							  <label class="form-control-label">المحافظة</label>
+							  <select name="" id="">
+								  <option value="">القاهرة</option>
+								  <option value="">الجيزة</option>
+	  
+							  </select>
+						  </div>
+						</div>
+						<div class="col-12">
+						  <div class="form-group">
+							  <label class="form-control-label">المدينة</label>
+							  <select name="" id="">
+								  <option value="">القاهرة</option>
+								  <option value="">الجيزة</option>
+	  
+							  </select>
+						  </div>
+						</div>
+						<div class="col-12">
+							<div class="form-group">
+								<label class="form-control-label">العنوان بالتفصيل</label>
+								<textarea placeholder="العنوان بالتفصيل"></textarea>
+							</div>
+						  </div>
+						<div class="col-12">
+						  <div class="form-group">
+							  <label class="form-control-label">حدد موقعك باستخدام الخريطة</label>
+							  <button type="button" value="" class="btn btn-primary">إضغط هنا</button>
+						  </div>
+						</div>
+						 
+						</div>
+                </div>
+                <div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+				  <button type="button" class="btn btn-primary" data-dismiss="modal"  id="payment">إدفع الأن</button>
+				 
+                </div>
+              </div>
+            </div>
+		  </div>
+		  <div class="modal fade" id="coupon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"> إدخل كود العرض</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+		 
+					<div class="row">
+						<div class="col-12">
+						  <div class="form-group">
+							  <label class="form-control-label">كود العرض</label>
+							  <input type="email" id="" name=""  class="normal-input"  placeholder="كود العرض " required
+							  onfocus="this.placeholder=''" onblur="this.placeholder=' كود العرض'">
+		
+							 
+						  </div>
+						</div>
+					
+					
+					
+						 
+						
+                </div>
+                <div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+				  <button type="button" class="btn btn-primary" data-dismiss="modal"  id="payment"> موافق</button>
+				 
+                </div>
+              </div>
+            </div>
+          </div>
+	</section>
+
+
+
+	<!--================================== Jquery CDN Links & bootstap Links ========================================-->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/wow.js"></script>
+    <script src="./js/customAnimation.js"></script>
+    <script src="./js/sweetalert2.min.js"></script>
+
+	<script src="./js/swiper-bundle.min.js"></script>
+	<script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/payment.js"></script>
+
+
+</body>
+
+</html>

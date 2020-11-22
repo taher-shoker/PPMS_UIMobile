@@ -1,0 +1,7 @@
+[0915/104513.561:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0916/200243.636:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0917/015255.171:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0928/200352.521:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0930/011722.753:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0930/011722.786:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0930/012253.011:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
